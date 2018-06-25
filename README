@@ -1,0 +1,7 @@
+Chores Reminder
+
+A short project to introduce me to Go
+
+Hit a URL to log chores, server emails the next person in line to remind them to do their chores. React frontend coming soon.
+
+-Max Rais
