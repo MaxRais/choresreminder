@@ -48,7 +48,7 @@ func sendEmail(dishes bool) error {
 	email = nameToEmail[name]
 
 	m := gomail.NewMessage()
-	m.SetHeader("From", "Chore Reminder")
+	m.SetHeader("From", "terracechores@gmail.com")
 	m.SetHeader("To", email)
 	m.SetHeader("Subject", "It's your turn!")
 	m.SetBody("text/html", fmt.Sprintf("Hi %v,<br><br>Please do the %v<br><br>From,<br>Chore Reminder Bot", name, message))
